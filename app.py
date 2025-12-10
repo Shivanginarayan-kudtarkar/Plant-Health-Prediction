@@ -76,9 +76,9 @@ def index():
 @app.route("/predict", methods=["GET", "POST"])
 def predict():
 
-    if "user_id" not in session:
-        flash("Please login to continue.", "error")
-        return redirect(url_for("login"))
+    # if "user_id" not in session:
+    #     flash("Please login to continue.", "error")
+    #     return redirect(url_for("login"))
 
     if request.method == "POST":
         Soil_Moisture = float(request.form["Soil_Moisture"])
