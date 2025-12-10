@@ -18,4 +18,8 @@ To get started with this project, clone the repository and install the required 
 Contributions are welcome! Please read the contributing guidelines for more information on how to get involved.
 
 ## License
+<<<<<<< HEAD
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+This project is licensed under the MIT License - see the LICENSE file for details.
+>>>>>>> eb1af8fe791e785d2f6a0b8588a716a828341953
