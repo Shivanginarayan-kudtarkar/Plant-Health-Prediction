@@ -164,10 +164,10 @@ def login():
         cursor.close()
         conn.close()
 
-        # if user and hash_password(password) == user["password"]:
-        #     session["user_id"] = user["user_id"]
-        #     session["username"] = user["username"]
-        #     session["email"] = user["email"]
+        if user and hash_password(password) == user["password"]:
+            session["user_id"] = user["user_id"]
+            session["username"] = user["username"]
+            session["email"] = user["email"]
 
             flash("Login successful!", "success")
             return redirect(url_for("index"))
